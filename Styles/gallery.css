@@ -1,0 +1,21 @@
+
+.containerWhole {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 900px;
+}
+
+.homeBtn{
+    height: 50px;
+    align-items: flex-start;
+    position: absolute;
+}
+
+#image:hover{
+    transition: transform .2s;
+    transform: scale(1.5);
+    margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 200px;
+}

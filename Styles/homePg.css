@@ -1,0 +1,53 @@
+.dropdown {
+    height: 200px;
+    position: relative;
+}
+html{
+    background-image: url(../bckgrd-img/hand-drawn-sweet-dessert-seamless-background-free-vector.jpg);
+}
+.dropbtn {
+    margin: 0;
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 100px;
+    background-color:#ccd5aeb6;
+    border:none;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    top: 288%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 250px;
+    font-size: 17px;
+    background-color:#fefae092;
+    
+}
+.dropdown-content a {
+ text-align: center;
+ margin-top: 10px;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family:monospace
+}

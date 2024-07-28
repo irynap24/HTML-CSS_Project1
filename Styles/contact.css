@@ -1,0 +1,91 @@
+html {
+    background: url(../bckgrd-img/cookies.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    margin-top: 40px;
+    filter: none;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 4px solid #fcefb4;
+    width: 600px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: #ccd5aeac;
+    box-shadow: 20px 15px 30px #fcefb4;
+    color: #774936;
+
+}
+
+.send-msg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -50px;
+    background-color: #e9edc98c;
+    font-size: 20px;
+    font-family: monospace;
+}
+.send-msg:hover{
+    transition-duration: 1sec;
+    transform: rotate(360deg);
+}
+
+.send-msg:hover {
+    transition: 2s;
+    background-color: #e83e68;
+}
+
+textarea {
+    resize: none;
+    background-color: rgba(255, 255, 255, 0.631);
+    border: 3px solid black;
+}
+
+#Q {
+    margin-left: 400px;
+    margin-bottom: -76px;
+}
+
+#email,
+#fname {
+    border: 3px solid black;
+    background-color: rgba(255, 255, 255, 0.631);
+    margin-bottom: -10px;
+}
+
+#clickme {
+    margin-left: 420px;
+    margin-top: -30px;
+}
+
+#back {
+    position: absolute;
+    align-self: flex-start;
+    
+}
